@@ -1,0 +1,252 @@
+.imgheader {
+  position: relative !important;
+  width: 1080px !important;
+  height: 500px !important;
+}
+
+.fotertxt {
+  left: 3.78%;
+  right: 61.79%;
+  top: 35.47%;
+  bottom: 35.47%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 31.644px;
+  line-height: 37px;
+
+  display: flex;
+  align-items: center;
+  color: #ff0083;
+}
+.footer1 {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #b6b6b6;
+  width: 1080px;
+  height: 127px;
+}
+.pfoteremail {
+  padding-top: 27px;
+}
+
+.btnhelp {
+  background: #ff0083;
+  border-radius: 42px;
+  height: 69px;
+  width: 144px;
+  left: 0px;
+  top: 0px;
+  text-align: center !important;
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  border-color: #ff0083;
+}
+.size {
+  position: relative !important;
+  width: 1080px !important;
+}
+.ccard {
+  background: #ffffff;
+
+  box-shadow: 0px -2px 26px;
+  border-radius: 6%;
+}
+.imgcard {
+  border-top-left-radius: 4%;
+  border-top-right-radius: 6%;
+}
+.titlecard {
+  position: initial !important;
+  left: 37.31%;
+  right: 50.23%;
+  top: 55.83%;
+  bottom: 42.87%;
+  font-family: Helvetica Rounded LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.69px;
+  line-height: 20px;
+  color: #333333;
+}
+.price {
+  position: initial;
+  left: 37.31%;
+  right: 56.31%;
+  top: 75.36%;
+  bottom: 23.73%;
+
+  font-family: Helvetica Rounded LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.opcard {
+  position: relative;
+  margin-left: 10px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 44% !important;
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+.pbcontainer {
+  padding-bottom: 2% !important;
+  padding-top: 2% !important;
+}
+
+.pbcard {
+  padding-top: 2% !important;
+}
+.prowcard {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.divbtngroup {
+  font-family: Helvetica Rounded LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  padding-bottom: 2% !important;
+}
+.btngroup {
+  border: 1px solid #ff0083;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+
+text-align: center !important;
+
+  align-items: center;
+
+  color: #231f20;
+}
+
+.btngroup:hover {
+  color: #fff;
+  background-color: #ff0083;
+  border-color: #ff0083;
+}
+
+.btnmenu{
+    width: 267px;
+height: 57px;
+left: 705px;
+top: 709px;
+
+border: 1px solid #858585;
+box-sizing: border-box;
+border-radius: 14px;
+}
+.title{
+
+    font-family: Helvetica Rounded LT Std;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center !important;
+    
+}
+
+.imgtaable{
+
+  Width:100px !important;
+  Height:100px!important;
+}
+.carddetail{
+  background: #F7F7F7;
+border-radius: 35px;
+text-align: center;
+
+}
+
+.imgdetail{
+  height: 539.782104492188px;
+  width: 565.9999389648442px;
+
+  
+
+background: #FF0083;
+transform: rotate(-90deg);
+}
+
+.sup {
+  width: 566px;
+  height: 121px;
+  text-align: center;
+
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.descipitiondetail{
+font-style: normal;
+font-weight: bold;
+
+line-height: 38px;
+
+align-items: center;
+color: #858585;
+}
+.totaldecripition{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #424242;
+}
+.btnadddiscount{
+
+  Width:193px;
+  Height:55px;
+
+background: #FFFFFF;
+border: 3px solid #FF0083;
+box-sizing: border-box;
+border-radius: 61px;
+text-align: Center;
+}
+.btnemail{
+  Width:193px;
+  Height:55px;
+  color:#FFFFFF;
+  border-color: #FF0083;
+  background: #FF0083;
+  text-align: Center;
+  border-radius: 61px;}
+
+  .btnnext{
+   text-align: center;
+     padding-bottom: 2% !important;
+     padding-top: 2% !important;
+  }
