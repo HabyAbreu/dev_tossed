@@ -3,11 +3,11 @@ angularApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider
     
     .when('/', {
-       templateUrl: 'states/home.htm',
+       templateUrl: 'states/home.html',
        controller: 'mainController'
     })
     .when('/basket', {
-     templateUrl: 'states/basket.htm',
+     templateUrl: 'states/basket.html',
      controller: 'basketController'
   })
     .otherwise({
