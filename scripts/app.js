@@ -1,13 +1,13 @@
 
 // MODULE
 
-var angularApp = angular.module('angularApp', ['ngRoute','ngAnimate']);
+var angularApp = angular.module('angularApp', ['ngRoute','ngAnimate','ui.bootstrap']);
 
 // ROUTE
 
 // CONTROLLERS
 
-angularApp.controller('mainController', ['$scope',  '$log',function ($scope,$log) { //STATE 1
+angularApp.controller('mainController', ['$scope',  '$log','$modal',function ($scope,$log,$modal) { //STATE 1
 $scope.fech_all_image={ img: "assets/img/header.png",
 img1: "assets/img/media1.png"
 },
@@ -39,11 +39,52 @@ $scope.filter= 'Filter by',
 $scope.btnmenu= 'menu keys',
 $scope.title= 'not sure what you fancy? browse our menu',
 
+$scope.cpbox= 'caesar protein box',
 
-$scope.displayDetails= function ($params) {
-  
-    alert($params);
-};
+$scope.mbox1= 'your chioce of chicken, egg, roast tomatoes and sweet potato with casesar dressing',
+$scope.mbox22= 'deal information',
+$scope.mbox3= 'overview',
+$scope.mbox4= 'nutrition',
+
+$scope.bmtnclose= 'Close',
+$scope.bmtnadd= 'Add',
+
+$scope.clickMe = function(p) {
+    $scope.selected = p;
+    console.log(p);
+  }
+
+
+  $scope.clickMe = function(p) {
+
+    $modal.open({
+      templateUrl: 'states/popup.html',
+      backdrop: true,
+      windowClass: 'modal',
+      controller: function($scope, $modalInstance, $log) {
+        $scope.selected = p;
+        $scope.submit = function() {
+          $log.log('Submiting user info.');
+          $log.log($scope.selected);
+          $modalInstance.dismiss('cancel');
+        }
+        $scope.cancel = function() {
+          $modalInstance.dismiss('cancel');
+        };
+      },
+      resolve: {
+        user: function() {
+          return $scope.selected;
+        }
+      }
+    });
+  };
+  $scope.isSelected = function(p) {
+    return $scope.selected === p;
+  }
+
+
+
 //console.log($scope.header);
 }]);
 
